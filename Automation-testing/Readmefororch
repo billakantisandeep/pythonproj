@@ -1,0 +1,2 @@
+RawTextHelpFormatter maintains whitespace for all sorts of help text, including argument descriptions.
+ However, multiple new lines are replaced with one. If you wish to preserve multiple blank lines, add spaces between the newlines.
