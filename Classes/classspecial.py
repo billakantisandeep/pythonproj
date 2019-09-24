@@ -21,7 +21,7 @@ class Employee:
 
     def __add__(self, other):
         return self.pay + other.pay
-    
+
     def __len__(self):
         return len(self.fullname())
 

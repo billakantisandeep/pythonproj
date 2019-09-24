@@ -1,4 +1,4 @@
-from subprocess import Popen, PIPE 
+from subprocess import Popen, PIPE
 
 process = Popen(['cat', 'test.py'], stdout=PIPE, stderr=PIPE)
 stdout, stderr = process.communicate()

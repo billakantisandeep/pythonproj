@@ -20,3 +20,4 @@ print(student.items())
 for key, value in student.items():
     print(key, value)
 # Key-values paris can be anything like integers,strings, list etc..
+

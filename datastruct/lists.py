@@ -1,4 +1,4 @@
-courses = ["Historty", "Math", "physics", "compsci"]
+courses = ["History", "Math", "physics", "compsci"]
 # for item in enumerate(courses, start=1):
 #     print(item)
 course_str = " - ".join(courses)

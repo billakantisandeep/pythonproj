@@ -1,6 +1,6 @@
 # li = [-6, -5,-4,1,2,3]
 # print(li)
-# s_li = sorted(li, key=abs)  #key is very important 
+# s_li = sorted(li, key=abs)  #key is very important
 # print('Sorted list:\t', s_li)
 
 
@@ -9,7 +9,7 @@ class Employee:
         self.name = name
         self.age = age
         self.salary = salary
-    
+
     def __repr__(self):
         return '({},{},${})'.format(self.name,self.age,self.salary)
 

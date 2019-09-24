@@ -12,5 +12,3 @@ print('Animals brought from the old zoo are ', new_zoo[2])
 print('Last animal brought into the zoo is ', new_zoo[2][2])
 print('no of animals in the zoo are',
         len(new_zoo)-1+len(new_zoo[2]))
-
-        

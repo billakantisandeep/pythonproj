@@ -52,7 +52,7 @@ Class variables can be called from class i.e Employee.raise_amount or self.raise
 
 class methods vs static methods.
 
-Regualar methods -- automatically calls first argument as self.
+Regualar methods -- automatically calls first argument as self. -- automatically takes instance as the first method like self.
 Class methods --- automcatically calls first arguments as cls
 Static methods -- empty
 
