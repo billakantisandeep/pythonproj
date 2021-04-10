@@ -20,5 +20,3 @@ ab['guido'] = 'guido@python.org'
 
 if 'guido' in ab:
     print("\n Guido address is", ab['guido'])
-
-

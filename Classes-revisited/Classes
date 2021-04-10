@@ -1,0 +1,12 @@
+Classes in python combines the data and functionality
+- Class is like a blue print which can be used to create objects
+- Creating new class creates a new type of objects, allowing new instances of that type to be made.
+- Each class instance can have attributes to it for maintaining the state.
+
+Instance variables:
+- Unique to each instance for example self.first, self.last etc..
+
+Class variables:
+- Variables that are shared among all the instances, where as the instance variables can be unique to each instance.
+- Annual raise to all employee can be the class variable.
+- Class variables are always accessed in class or instance of the class. If not we get error saying not defined.

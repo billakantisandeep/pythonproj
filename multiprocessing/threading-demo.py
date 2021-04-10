@@ -1,4 +1,5 @@
-import time 
+import multiprocessing
+import time
 
 start = time.perf_counter()
 
@@ -6,11 +7,13 @@ start = time.perf_counter()
 def do_something():
     print('Sleeping 1 second...')
     time.sleep(1)
-    print('Done sleeping')
+    print('Done sleeping...')
 
+p1 = multiprocessing.Process(target=do_something)
+p2 = multiprocessing.Process(target=do_something)
 
-do_something()
-do_something()
+p1.start()
+p2.start()
 
 finish = time.perf_counter()
 

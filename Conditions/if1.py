@@ -15,7 +15,6 @@ else:
 b = a
 print(id(a))
 print(id(b))
-
 if a is b:
     print("True")
 else:
